@@ -1,15 +1,3 @@
-
-
-// function getInput() {
-//     const wt = document.getElementById("weightinkg").value;
-//     const ht = document.getElementById("heightinm").value;
-// }
-
-// console.log('wt');
-// console.log('ht');
-
-
-
 const beforeclickelement = document.querySelector('.container2')
 const afterclickelement = document.querySelector('#afterelement')
 
