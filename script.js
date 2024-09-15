@@ -1,5 +1,4 @@
-// const wt = document.getElementById('weightinkg').addEventListener('input', () => { });
-// const ht = document.getElementById('heightinm').addEventListener('input', () => { });
+
 
 // function getInput() {
 //     const wt = document.getElementById("weightinkg").value;
