@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div class="main">
+        <div class="container1">                                                                                   
+            <h1><span class="bb">B</span><span class="yy">M</span><span class="bb">I</span> <span class="bb">Ca</span><span class="yy">lc</span><span class="bb">ul</span><span class="yy">at</span><span class="bb">or</span></h1>
+            <h2>Track Your Health with Our Simple BMI Calculator</h2>
+            <p>"Wondering if you're maintaining a healthy weight? Use our BMI (Body Mass Index) calculator to find out!
+                Just input your height and weight, and we'll give you instant feedback on where you stand in terms of
+                health. Whether you're on a fitness journey or just checking in, this tool is designed to help you make
+                informed decisions about your body."</p>
+        </div>
+
+        <div class="container2" id="beforeelement">
+            <input type="number" id="weightinkg" name="weight" min="30" max="250"
+                placeholder="Enter your Weight (in Kg)">
+
+            <input type="number" id="heightinm" name="height" min="1" max="10"
+                placeholder="Enter your Height (in m)">
+
+            <input onclick="getInput()" id="submit-btn" type="submit">
+        </div>
+
+        <div class="container4" id="afterelement">
+            <div class="box1"><h2>Your B<span class="yyy">M</span>I score is</h2></div>
+            <div class="box2"></div>
+            <div class="box3"><h2>You are Underweight. This means you may need to gain weight to achieve a healthier balance.</h2></div>
+        </div>
+
+        <div class="container3">
+            <p>
+                <span class="bbb">1.</span>Underweight (<span class="bbb">BMI < 18.5</span>)<span class="bbb"> :
+                            "</span>This means you may need to gain weight to achieve a healthier balance.<span
+                            class="bbb">"</span><br>
+                        <span class="bbb">2.</span>Healthy Weight (<span class="bbb">BMI 18.5 - 24.9</span>)<span
+                            class="bbb"> : "</span>You're within the healthy range! Keep up the great work.<span
+                            class="bbb">"</span><br>
+                        <span class="bbb">3.</span>Overweight (<span class="bbb">BMI 25 - 29.9</span>)<span class="bbb"> :
+                            "</span>You might need to adopt healthier habits to reduce weight.<span
+                            class="bbb">"</span><br>
+                        <span class="bbb">4.</span>Obese (<span class="bbb">BMI 30+</span>)<span class="bbb"> :
+                            "</span>It's important to seek advice on weight management for better health.<span
+                            class="bbb">"</span><br>
+            </p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
