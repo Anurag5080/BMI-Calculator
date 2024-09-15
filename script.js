@@ -18,7 +18,6 @@ const outputbox1 = document.querySelector('.box2');
 const outputbox2 = document.querySelector('.box3');
 
 
-// console.log(bmi);
 
 const btn = document.querySelector('#submit-btn')
 
